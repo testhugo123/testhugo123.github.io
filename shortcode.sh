@@ -1,5 +1,5 @@
 # 添加彩虹背景
-cat - >> themes/hugo-theme-stack/layouts/partials/footer/custom.html <<'EOF'
+cat - >> layouts/_partials/footer/custom.html <<'EOF'
 <!-- layouts/partials/footer/custom.html -->
 <script
     src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/ribbon.min.js"
@@ -12,7 +12,7 @@ cat - >> themes/hugo-theme-stack/layouts/partials/footer/custom.html <<'EOF'
 ></script>
 EOF
 
-cat - >> themes/hugo-theme-stack/layouts/partials/footer/custom.html <<'EOF'
+cat - >> layouts/_partials/footer/custom.html <<'EOF'
 <!-- layouts/partials/footer/custom.html -->
 <script
     src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js"
