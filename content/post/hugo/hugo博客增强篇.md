@@ -21,7 +21,8 @@ date: 2025-07-08T19:01:41.14+0800
 
 然后就可以在博客中按照如下方式添加音频了。
 
-{{< netease 1304708603 >}}
+<!-- 如果是headless风格的博文，配置相对麻烦，因此先注释掉 -->
+<!-- {{< netease 1304708603 >}} -->
 
 # 测试文字属性
 在网站根目录的layouts/下创建shortcodes/目录，然后在layouts/shortcodes/目录下创建align.html文件，在该文件中加入如下代码定义：
@@ -1193,7 +1194,7 @@ Hellow, World!
 
 [博客切换到STACK 主题](https://skfwe.cn/p/博客切换到stack-主题/)
 
-## 要使用其他图标，你��以按照以下步骤获取对应的 SVG 代码：
+## 要使用其他图标，你可以按照以下步骤获取对应的 SVG 代码：
 
 1. 打开一个提供免费图标的网站，比如 [Tabler Icons](https://tablericons.com/)、[FontAwesome](https://fontawesome.com/) 或 [Feather Icons](https://feathericons.com/)。
 
